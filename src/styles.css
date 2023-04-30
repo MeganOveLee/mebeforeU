@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  position: relative;
+}
+li {
+  list-style: none;
+}
+.hidden {
+  display: none;
+}
+.background {
+  width: 100%;
+  height: 1080px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#login-form {
+  width: 450px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#login-form input {
+  background-color: inherit;
+  border: none;
+
+  font-size: 50px;
+  color: aliceblue;
+  outline: white;
+}
+#greeting {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  color: aliceblue;
+}
+#clock {
+  font-size: 100px;
+  color: aliceblue;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+}
+.todolist {
+  width: auto;
+  height: auto;
+
+  position: absolute;
+  top: 60px;
+  right: 0px;
+}
+#todo-form {
+  position: relative;
+  left: 0;
+  top: 0px;
+  font-size: 20px;
+}
+#todo-form input {
+  width: 250px;
+  background-color: inherit;
+  border: none;
+  outline: none;
+
+  font-size: 16px;
+  color: aliceblue;
+}
+
+#todo-list {
+  left: 0;
+  color: white;
+}
+#weather {
+  position: absolute;
+  right: 50px;
+  top: 30px;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: 500;
+}
